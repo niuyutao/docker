@@ -16,5 +16,5 @@ systemctl start docker
 systemctl enable docker
 
 #配置docker插件
- wget --no-check-certificate https://github.com/niuyutao/docker/blob/master/.bashrc_docker
+ wget --no-check-certificate https://github.com/niuyutao/docker/archive/master.zip
  echo "[ -f ~/.bashrc_docker ] && . ~/.bashrc_docker" >> ~/.bashrc; source ~/.bashrc
