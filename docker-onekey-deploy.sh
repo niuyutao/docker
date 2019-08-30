@@ -14,9 +14,3 @@ curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://ef017c13
 systemctl start docker
 #设置docker开机启动
 systemctl enable docker
-#进如git的docker项目目录
-cd docker
-#配置docker插件
- 
- cp .bashrc_docker /root/
- echo "[ -f ~/.bashrc_docker ] && . ~/.bashrc_docker" >> ~/.bashrc; source ~/.bashrc
