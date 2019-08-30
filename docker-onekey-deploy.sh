@@ -17,7 +17,6 @@ systemctl enable docker
 #进如git的docker项目目录
 cd docker
 #配置docker插件
- git clone  https://github.com/niuyutao/docker.git
- 复制文件到root目录
+ 
  cp .bashrc_docker /root/
  echo "[ -f ~/.bashrc_docker ] && . ~/.bashrc_docker" >> ~/.bashrc; source ~/.bashrc
