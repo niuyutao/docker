@@ -1,5 +1,3 @@
-#安装wget
-yum -y install wget 
 #备份官方yum源
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 #下载阿里云yum源
