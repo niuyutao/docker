@@ -7,7 +7,7 @@ wget -O /etc/yum.repos.d/docker-ce.repo https://mirrors.aliyun.com/docker-ce/lin
 #生成yum缓存
 yum makecache
 #安装docker
-yum -y install docker-ce
+yum -y install docker-ce*
 #使用daocloud加速器
 curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://ef017c13.m.daocloud.io
 #启动docker
