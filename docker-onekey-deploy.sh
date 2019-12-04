@@ -1,3 +1,7 @@
+#安装wget
+yum -y install wget ntp
+#同步一下时间
+ntpdate -u ntp1.aliyun.com
 #备份官方yum源
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 #下载阿里云yum源
